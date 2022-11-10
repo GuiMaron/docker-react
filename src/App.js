@@ -7,15 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload, or not !!!
-          <br />
-          But Docker screwed it, nej?
-          <br />
-          Docker run makes no sense ...
-          <br />
-          But now  is composed ... =D
-          <br />
-          A little bit easier ... OH NOES (MOROES), OH YES !!!
+          Not that easy, mate !!!
         </p>
         <a
           className="App-link"
