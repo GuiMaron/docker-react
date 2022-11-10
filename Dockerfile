@@ -16,8 +16,8 @@ RUN npm run build
 #   PRODUCTION
 FROM nginx
 
+EXPOSE 80
+
 COPY --from=builder /usr/app/build/ /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
-
-EXPOSE 80
